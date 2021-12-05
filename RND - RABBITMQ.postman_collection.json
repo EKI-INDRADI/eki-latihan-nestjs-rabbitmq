@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "74a60296-e3aa-4ca4-8136-a93fd83f5b4d",
+		"name": "RND - RABBITMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sender",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\" :\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\",\r\n    \"data\" : [{\r\n        \"obj1\" : \"obj1\",\r\n        \"obj2\" : \"obj2\", \r\n        \"obj3\" : \"obj3\", \r\n        \"obj4\" : \"obj4\", \r\n        \"obj5\" : \"obj5\"\r\n    }],\r\n    \"requester\" : {\r\n        \"username\" : \"ekitesting\",\r\n        \"email\" : \"ekitesting@mail.com\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/publisher-sender-request/rabbitmq-sender",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"publisher-sender-request",
+						"rabbitmq-sender"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
