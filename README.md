@@ -46,6 +46,9 @@ https://docs.nestjs.com/microservices/rabbitmq
 
 ## EKI INDRADI
 
-"TIME > KNOWLEDGE > MONEY". #STILL_ONE_DIGIT
+"TIME > KNOWLEDGE > MONEY". 
+
+
 "Siapkan dirimu untuk selalu siap menerima keberuntungan,
+
 karena peluang itu datang ketika persiapan bertemu dengan kesempatan"
